@@ -42,6 +42,7 @@
     
 }
 
+
 .add-first{
     color: #CCCCCC;
     font-size: 0.85rem;
@@ -56,4 +57,18 @@
 .add-icon{
     display: flex;
     align-items: center;
+}
+/* box 3  */
+.nav-search{
+    background-color: pink;
+    display: flex;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.select-search{
+    border-radius: 4px 0px 0px 4px ;
+    background-color: #F3F3F3;
+    width: 52px;
+    text-align: center;
 }
