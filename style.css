@@ -38,6 +38,7 @@
 /* Box 2 */
 .nav-address{
     height: 50px;
+    padding: 0px 9px;
     
     
 }
@@ -65,10 +66,30 @@
     height: 40px;
     width: 620px;
     border-radius: 4px;
+    justify-content: space-evenly;
+    
 }
+
 .select-search{
     border-radius: 4px 0px 0px 4px ;
+    border: none;
     background-color: #F3F3F3;
     width: 52px;
     text-align: center;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-radius: 0px 4px 4px 0px;
+    color: #0f1111;
 }
