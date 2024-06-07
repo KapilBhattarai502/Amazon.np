@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial;
     border:border-box;
+    box-sizing: border-box;
 }
 .navbar{
     height: 60px;
@@ -10,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+ 
     
 
 
@@ -37,6 +39,9 @@
 }
 /* Box 2 */
 .nav-address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 50px;
     padding: 0px 9px;
     
@@ -61,12 +66,13 @@
 }
 /* box 3  */
 .nav-search{
-    background-color: pink;
+    background-color: #0f1111;
     display: flex;
     height: 40px;
-    width: 620px;
+    width: 56.25rem;
     border-radius: 4px;
     justify-content: space-evenly;
+    padding: 0px 9px;
     
 }
 
@@ -81,6 +87,7 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+    padding-left: 5px;
 
 }
 .search-icon{
@@ -92,4 +99,74 @@
     background-color: #febd68;
     border-radius: 0px 4px 4px 0px;
     color: #0f1111;
+}
+
+/* div 4 style  */
+.flag-lang{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.flag{
+    height:25px;
+    width: 35px;
+    background-image: url('/nepal_flag\ Background\ Removed.png');
+    background-size: cover;
+    margin-left: 10px;
+}
+.lang-select{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+.text-account{
+    font-size: 12px;
+    border: 2px solid #0f1111;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 9px ;
+
+}
+.account-lists{
+    font-weight: bold;
+    font-size: 0.875rem;
+    border: none;
+    background-color: #0f1111;
+    color: white;
+    
+
+}
+.hello-para{
+    margin-left: 3px;
+    
+}
+.returns-orders{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 9px;
+    
+
+}
+.returns{
+    font-size: 0.75rem;
+}
+.orders{
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.cart-icon i{ 
+   font-size: 30px;
+}
+.cart-box{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 9px;
+
 }
