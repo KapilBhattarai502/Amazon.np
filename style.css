@@ -170,3 +170,29 @@
     padding: 0px 9px;
 
 }
+.panel{
+    display: flex;
+    background-color:#222f3e ;
+    height: 40px;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.panel-ops{
+    width: 95%;
+}
+.panel-ops{
+    display: flex;
+    
+}
+.panel-ops p{
+    font-size: 0.875rem;
+  
+    margin: 0px 6px 0px 6px;
+    
+}
+.panel-all{
+    padding: 8px 9px;
+    font-size: 0.875rem;
+}
+
