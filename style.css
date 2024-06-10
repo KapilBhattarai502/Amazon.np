@@ -5,6 +5,9 @@
     border:border-box;
     box-sizing: border-box;
 }
+body{
+    background-color: #e2e6e6;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -334,7 +337,7 @@
     background-size: cover;
 }
 .shop-all{
-    margin-top: 13px;
+    margin-top: 0.8125rem;
 }
 .beauty-row1-image-1{
     background-image: url("/makeup-iamge-1.jpeg");
@@ -351,4 +354,40 @@
 .beauty-row2-image-2{
     background-image: url("/makeup-image-4.jpg");
     background-size: cover;
+}
+.office-furniture{
+    background-image: url("/office-furniture.jpg");
+    background-size: cover;
+
+}
+.levelUp-gaming{
+    background-image: url("/level-up-gaming.webp");
+    
+}
+.camera-image{
+    background-image: url("/camera-photo.jpeg");
+    background-size: cover;
+}
+/* best selling books */
+.best-seller-books{
+    height: 300px;
+    background-color: white;
+}
+.best-seller-books h2{
+    font-size: 1.3125rem;
+
+}
+.book-box-content{
+    
+}
+.flex-books{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.flex-book{
+    width: 10%;
+  
+    background-color: black;
 }
