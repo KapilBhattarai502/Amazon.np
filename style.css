@@ -411,3 +411,53 @@ body{
 
 }
 
+/* footer */
+.footer{
+    
+    position: relative;
+    top: -150px;
+}
+.back-to-top{
+   
+    background-color: #485768;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8125rem;
+}
+.main-footer{
+    background-color:  #222f3e;
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 0 0;
+   
+    height: 50vh;
+    
+    
+}
+
+.footer-heading{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    margin-top: 6px;
+    color: white;
+    list-style-type: none;
+   
+}
+ul li{
+    margin-top: 9px;
+    font-size: 0.875rem;
+   
+}
+.empty-div{
+    
+    width: 9vw;
+    height: 35vh;
+
+}
+
