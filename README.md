@@ -1,2 +1,2 @@
-Createad a Non -Responsive clone of amazon using HTML and vanilla CSS.
+Created a Non -Responsive clone of amazon using HTML and vanilla CSS.
  
