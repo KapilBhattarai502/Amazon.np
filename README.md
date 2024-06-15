@@ -1,1 +1,2 @@
-Creating a clone of amazon using HTML and CSS
+Createad a Non -Responsive clone of amazon using HTML and vanilla CSS.
+ 
